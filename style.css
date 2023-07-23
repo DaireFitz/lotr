@@ -1,0 +1,107 @@
+ /* CSS code here */
+    * {
+      box-sizing: border-box;
+    }
+/* banner image for landing page*/
+.banner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+  overflow: hidden;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+/* styles for h1 tag within banner */
+.banner-text {
+  opacity: 0;
+  animation: fadeIn 4s ease-in-out forwards;
+  font-family: "Alex Brush";
+  position: relative;
+  color: var(--headline-color);
+  font-size: 28px;
+
+}
+
+.banner img.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*object-fit: cover;*/
+}
+
+.fade-in {
+  width: 90%;
+  color: #ffc957;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  animation: fadeIn linear 7s;
+  -webkit-animation: fadeIn linear 7s;
+  -moz-animation: fadeIn linear 7s;
+  -o-animation: fadeIn linear 7s;
+  -ms-animation: fadeIn linear 7s;
+  list-style: none;
+}
+
+
+.fade-in-1 {
+    width: 90%;
+    color: #ffc957;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    animation: fadeIn linear 7s;
+    -webkit-animation: fadeIn linear 7s;
+    -moz-animation: fadeIn linear 7s;
+    -o-animation: fadeIn linear 7s;
+    -ms-animation: fadeIn linear 7s;
+    list-style: none;
+    display: none;
+}
+/*This allows tect to change from eglish to elvis when it is hoverd on*/
+.languages li .english {
+  display: none;
+  transition: all.3s linear;
+  color: #ffc957;
+}
+.languages li:hover .Sindarin {
+  display: none;
+  color: #ffc957;
+}
+.languages li:hover .english {
+  display: block;
+  color: #ffc957;
+}
+.languages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome-textbox {
+  width: 90%;
+  color: #ffc957;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.welcome-textbox h1 {
+  font-size: 62px;
+  text-shadow: 5px 5px #050404;
+  text-decoration: none;
+}
