@@ -1,8 +1,9 @@
- /* CSS code here */
-    * {
-      box-sizing: border-box;
-    }
-/* banner image for landing page*/
+/* Global box-sizing property to include padding and border in the element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Styles for the banner section */
 .banner {
   height: 100vh;
   display: flex;
@@ -17,26 +18,26 @@
   z-index: 1;
 }
 
-/* styles for h1 tag within banner */
+/* Styles for the h1 tag within the banner section */
 .banner-text {
   opacity: 0;
   animation: fadeIn 4s ease-in-out forwards;
-  font-family: "Alex Brush";
+  font-family: "Alex Brush"; /* Custom font-family for banner text */
   position: relative;
-  color: var(--headline-color);
+  color: var(--headline-color); /* Using a custom CSS variable for headline color */
   font-size: 28px;
-
 }
 
+/* Styles for the background image within the banner */
 .banner img.background-image {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  /*object-fit: cover;*/
 }
 
+/* Fade-in effect for the banner text */
 .fade-in {
   width: 90%;
   color: #ffc957;
@@ -46,50 +47,49 @@
   position: relative;
   display: inline-block;
   animation: fadeIn linear 7s;
-  -webkit-animation: fadeIn linear 7s;
-  -moz-animation: fadeIn linear 7s;
-  -o-animation: fadeIn linear 7s;
-  -ms-animation: fadeIn linear 7s;
   list-style: none;
 }
 
-
+/* Additional fade-in effect for banner text (fade-in-1 class) */
 .fade-in-1 {
-    width: 90%;
-    color: #ffc957;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-    position: relative;
-    display: inline-block;
-    animation: fadeIn linear 7s;
-    -webkit-animation: fadeIn linear 7s;
-    -moz-animation: fadeIn linear 7s;
-    -o-animation: fadeIn linear 7s;
-    -ms-animation: fadeIn linear 7s;
-    list-style: none;
-    display: none;
+  width: 90%;
+  color: #ffc957;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  animation: fadeIn linear 7s;
+  list-style: none;
+  display: none; /* Initially hidden */
 }
-/*This allows tect to change from eglish to elvis when it is hoverd on*/
+
+/* Styling for language switch (English and Sindarin) */
 .languages li .english {
-  display: none;
-  transition: all.3s linear;
+  display: none; /* Initially hidden */
+  transition: all 0.3s linear;
   color: #ffc957;
 }
+
+/* Show English text and hide Sindarin text when hovering over the language switch */
 .languages li:hover .Sindarin {
   display: none;
   color: #ffc957;
 }
+
+/* Show Sindarin text and hide English text when hovering over the language switch */
 .languages li:hover .english {
   display: block;
   color: #ffc957;
 }
+
 .languages {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
+/* Styling for the welcome textbox (used for the main headline) */
 .welcome-textbox {
   width: 90%;
   color: #ffc957;
