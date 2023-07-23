@@ -71,6 +71,15 @@
   color: #ffc957;
 }
 
+/* Define the fadeIn animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /* Show English text and hide Sindarin text when hovering over the language switch */
 .languages li:hover .Sindarin {
   display: none;
@@ -105,3 +114,4 @@
   text-shadow: 5px 5px #050404;
   text-decoration: none;
 }
+
