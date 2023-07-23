@@ -15,6 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
 </head>
 <body>
   <header>
@@ -31,9 +32,8 @@
         <!-- Languages and Welcome text -->
         <ul class="languages">
           <li>
-            <h1 class="Sindarin">
-              <i> Mae l'ovannen!</i>
-            </h1>
+           <h1 class="Sindarin" id="welcome-text">Mae l'ovannen!</h1>
+             
             <h1 class="english"><i>Welcome! </i> </h1>
           </li>
         </ul>
@@ -52,7 +52,7 @@
         </ul>
       </div>
           <!-- Select difficulty section -->
-       <h1 id="welcome-text">Select Difficulty</h1>
+       <h1>Select Difficulty</h1>
   <div class="difficulty-buttons">
     <button class="difficulty-button" onclick="selectDifficulty('easy')">Easy</button>
     <button class="difficulty-button" onclick="selectDifficulty('medium')">Medium</button>
@@ -60,6 +60,5 @@
   </div>
     </div>
   </div>
-
 </body>
 </html>
