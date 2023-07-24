@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title> Lord of the rings quizz </title>
+  <title>Lord of the Rings Quiz</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="A quizz  about the world of Arda ">
-  <meta name="keywords" content="Quizz, Lord of the Rings, Fantasy, Middle Earth,Fun">
+  <meta name="description" content="A quiz about the world of Arda">
+  <meta name="keywords" content="Quiz, Lord of the Rings, Fantasy, Middle Earth, Fun">
   <meta name="author" content="Daire Fitzpatrick">
 
-<!-- Importing CSS stylesheets and fonts -->
+  <!-- Importing CSS stylesheets and fonts -->
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,43 +18,50 @@
 </head>
 <body>
   <header>
-
+    <!-- Your header content goes here if needed -->
   </header>
   
-<div class="banner">
-  <!-- Background image -->
-  <img src="assests/lotrbanner.jpg" alt="Background Image" class="background-image">
-  <!-- The banner contains the main message of the website -->
-  <div class="banner-text" id="banner-text">
-    <!-- Fade-in effect for text -->
-    <div class="fade-in-1">
-      <!-- Languages and Welcome text -->
-      <ul class="languages">
-        <li>
-          <h1 class="Sindarin">Mae l'ovannen!</h1>
-          <h1 class="english"><i>Welcome! </i></h1>
-        </li>
-      </ul>
-    </div>
-    <div class="fade-in">
-      <!-- Languages and Welcome text with a link -->
-      <ul class="languages">
-        <li>
-          <h1 class="Sindarin">
-            <i> Mae l'ovannen!</i>
-          </h1>
+  <div class="banner">
+    <!-- Background image -->
+    <img src="assests/lotrbanner.jpg" alt="Background Image" class="background-image">
+    <!-- The banner contains the main message of the website -->
+    <div class="banner-text" id="banner-text">
+      <!-- Fade-in effect for text -->
+      <div class="fade-in-1">
+        <!-- Languages and Welcome text -->
+        <ul class="languages">
+          <li>
+            <h1 class="Sindarin">Mae l'ovannen!</h1>
             <h1 class="english"><i>Welcome! </i></h1>
-        </li>
-      </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="fade-in">
+        <!-- Languages and Welcome text with a link -->
+        <ul class="languages">
+          <li>
+            <h1 class="Sindarin">
+              <i> Mae l'ovannen!</i>
+            </h1>
+            <h1 class="english"><i>Welcome! </i></h1>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Select difficulty section -->
+    <div class="difficulty-buttons" id="difficulty-buttons">
+      <button class="difficulty-button" onclick="selectDifficulty('easy')">Easy</button>
+      <button class="difficulty-button" onclick="selectDifficulty('medium')">Medium</button>
+      <button class="difficulty-button" onclick="selectDifficulty('hard')">Hard</button>
     </div>
   </div>
-  <!-- Select difficulty section -->
-  <div class="difficulty-buttons" id="difficulty-buttons">
-    <button class="difficulty-button" onclick="selectDifficulty('easy')">Easy</button>
-    <button class="difficulty-button" onclick="selectDifficulty('medium')">Medium</button>
-    <button class="difficulty-button" onclick="selectDifficulty('hard')">Hard</button>
-  </div>
-</div>
+
+  <script src="script.js"></script>
+  <!-- Redirect you to the quiz.html page with the selected difficulty level appended to the URL as a query parameter -->
+  <script>
+    function selectDifficulty(difficulty) {
+      window.location.href = `quiz.html?difficulty=${difficulty}`;
+    }
+  </script>
 </body>
- <script src="script.js"></script>
 </html>
