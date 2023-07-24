@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
  <title> Lord of the rings quizz </title>
@@ -15,50 +15,48 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap" rel="stylesheet">
-  <script src="script.js"></script>
 </head>
 <body>
   <header>
 
   </header>
-<!-- Main banner section -->
-  <div class="banner">
-    <!-- Background image -->
-    <img src="assests/lotrbanner.jpg" alt="Background Image" class="background-image">
-    <!-- The banner contains the main message of the website -->
-    <div class="banner-text">
-      <!-- Fade-in effect for text -->
-      <div class="fade-in-1">
-        <!-- Languages and Welcome text -->
-        <ul class="languages">
-          <li>
-           <h1 class="Sindarin" id="welcome-text">Mae l'ovannen!</h1>
-             
-            <h1 class="english"><i>Welcome! </i> </h1>
-          </li>
-        </ul>
-      </div>
-      <div class="fade-in">
-        <!-- Languages and Welcome text with a link -->
-        <ul class="languages">
-          <li>
-            <h1 class="Sindarin">
-              <i> Mae l'ovannen!</i>
-            </h1>
-            <a href="Home page.html">
-              <h1 class="english"><i>Welcome! </i> </h1>
-            </a>
-          </li>
-        </ul>
-      </div>
-          <!-- Select difficulty section -->
-       <h1>Select Difficulty</h1>
-  <div class="difficulty-buttons">
+  
+<div class="banner">
+  <!-- Background image -->
+  <img src="assests/lotrbanner.jpg" alt="Background Image" class="background-image">
+  <!-- The banner contains the main message of the website -->
+  <div class="banner-text" id="banner-text">
+    <!-- Fade-in effect for text -->
+    <div class="fade-in-1">
+      <!-- Languages and Welcome text -->
+      <ul class="languages">
+        <li>
+          <h1 class="Sindarin">Mae l'ovannen!</h1>
+          <h1 class="english"><i>Welcome! </i></h1>
+        </li>
+      </ul>
+    </div>
+    <div class="fade-in">
+      <!-- Languages and Welcome text with a link -->
+      <ul class="languages">
+        <li>
+          <h1 class="Sindarin">
+            <i> Mae l'ovannen!</i>
+          </h1>
+          <a href="Home page.html">
+            <h1 class="english"><i>Welcome! </i></h1>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Select difficulty section -->
+  <div class="difficulty-buttons" id="difficulty-buttons">
     <button class="difficulty-button" onclick="selectDifficulty('easy')">Easy</button>
     <button class="difficulty-button" onclick="selectDifficulty('medium')">Medium</button>
     <button class="difficulty-button" onclick="selectDifficulty('hard')">Hard</button>
   </div>
-    </div>
-  </div>
+</div>
 </body>
+ <script src="script.js"></script>
 </html>
