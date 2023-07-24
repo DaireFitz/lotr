@@ -14,7 +14,6 @@
   background-position: center;
   overflow: hidden;
   background-size: cover;
-  position: relative;
   z-index: 1;
 }
 
@@ -22,10 +21,13 @@
 .banner-text {
   opacity: 0;
   animation: fadeIn 4s ease-in-out forwards;
-  font-family: "Alex Brush"; /* Custom font-family for banner text */
+  font-family: "IM Fell DW Pica", serif ;
   position: relative;
   color: var(--headline-color); /* Using a custom CSS variable for headline color */
   font-size: 28px;
+  text-shadow: 5px 5px #050404;
+  /* Center the banner text without affecting the sliding animation */
+
 }
 
 /* Styles for the background image within the banner */
@@ -41,8 +43,7 @@
 .fade-in {
   width: 90%;
   color: #ffc957;
-  left: 50%;
-  transform: translate(-50%);
+  /* Remove left and transform properties to avoid pushing content to the right */
   text-align: center;
   position: relative;
   display: inline-block;
@@ -54,8 +55,7 @@
 .fade-in-1 {
   width: 90%;
   color: #ffc957;
-  left: 50%;
-  transform: translate(-50%);
+  /* Remove left and transform properties to avoid pushing content to the right */
   text-align: center;
   position: relative;
   display: inline-block;
@@ -71,28 +71,15 @@
   color: #ffc957;
 }
 
-/* Define the fadeIn animation keyframes 
+/* Define the fadeIn animation keyframes */
 @keyframes fadeIn {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
-  }
-}*/
-
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px); /* Optional: Add a vertical slide effect */
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0); /* Optional: Add a vertical slide effect */
   }
 }
-
 
 /* Show English text and hide Sindarin text when hovering over the language switch */
 .languages li:hover .Sindarin {
@@ -119,7 +106,7 @@
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -130,38 +117,38 @@
 }
 
 /* Button styles */
-    .difficulty-buttons {
-      display: flex;
-      justify-content: center;
-      margin-top: 30px;
-      opacity: 0;
-  
-    }
-
-    .difficulty-buttons button {
-      margin: 10px;
-      padding: 10px 20px;
-      font-size: 18px;
-      background-color: #ffc957;
-      border: none;
-      color: #050404;
-      cursor: pointer;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-      border: 1px solid var(--headline-color);
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-      border-radius: 22.5px;
-      font-family: "Alex Brush";
-    position: relative;
-    font-size: 28px;
+.difficulty-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  opacity: 0;
 }
-    
 
+.difficulty-buttons.fade-in {
+  opacity: 1;
+  /* Apply the sliding effect only to the opacity animation */
+  animation: fadeIn linear 7s;
+}
 
+.difficulty-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ffc957;
+  border: none;
+  color: #050404;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  border: 1px solid var(--headline-color);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 22.5px;
+  font-family: "IM Fell DW Pica", serif ;
+  position: relative;
+  font-size: 28px;
+}
 
-
-
-    .difficulty-buttons button:hover {
-      background-color: #f7f2e7;
-        transform: scale(1.05);
-    }
+.difficulty-buttons button:hover {
+  background-color: #f7f2e7;
+  transform: scale(1.05);
+}
