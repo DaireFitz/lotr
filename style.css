@@ -2,7 +2,10 @@
 * {
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+  font-size: calc(60% + 0.8vmin);
+}
 /* Styles for the banner section */
 .banner {
   height: 100vh;
