@@ -1,0 +1,226 @@
+ {
+  "easy": [
+    {
+      "question": "Who is the author of The Lord of the Rings?",
+      "a": "J.R.R. Tolkien",
+      "b": "C.S. Lewis",
+      "c": "George R.R. Martin",
+      "d": "J.K. Rowling",
+      "correct": "a"
+    },
+    {
+      "question": "What is the name of the wizard in The Lord of the Rings?",
+      "a": "Gandalf",
+      "b": "Saruman",
+      "c": "Radagast",
+      "d": "Merlin",
+      "correct": "a"
+    },
+    {
+      "question": "Who is Frodo's loyal friend and companion?",
+      "a": "Samwise Gamgee",
+      "b": "Legolas",
+      "c": "Aragorn",
+      "d": "Gimli",
+      "correct": "a"
+    },
+    {
+      "question": "How are Bilbo and Frodo Baggins related?",
+      "a": "Bilbo is Frodo’s father",
+      "b": "Bilbo is Frodo’s grandfather",
+      "c": "Bilbo is Frodo’s cousin",
+      "d": "Bilbo is Frodo’s uncle",
+      "correct": "d"
+    },
+    {
+      "question": "What effect does Bilbo’s ring have on its wearer?",
+      "a": "It makes him invisible",
+      "b": "It enables him to see in the dark",
+      "c": "It gives him great strength",
+      "d": "It has seemingly no effect",
+      "correct": "a"
+    },
+    {
+      "question": "How did Bilbo come into possession of his ring?",
+      "a": "He inherited it",
+      "b": "He won it in a battle",
+      "c": "He found it in a cave",
+      "d": "He found it at the bottom of a river",
+      "correct": "c"
+    },
+    {
+      "question": "To which of the following is the landscape of the Shire most similar?",
+      "a": "The English countryside",
+      "b": "The Scottish highlands",
+      "c": "The French Riviera",
+      "d": "The Swiss Alps",
+      "correct": "a"
+    },
+    {
+      "question": "Which of the following hobbits does not set out on the quest with Frodo?",
+      "a": "Merry",
+      "b": "Fatty",
+      "c": "Sam",
+      "d": "Pippin",
+      "correct": "b"
+    },
+    {
+      "question": "How many Black Riders are there?",
+      "a": "Nine",
+      "b": "Seven",
+      "c": "Thirteen",
+      "d": "Eleven",
+      "correct": "a"
+    },
+    {
+      "question": "What type of tree ensnares Merry in the Old Forest?",
+      "a": "Willow",
+      "b": "Larch",
+      "c": "Oak",
+      "d": "Elm",
+      "correct": "a"
+    },
+    {
+      "question": "What are Tom Bombadil’s origins?",
+      "a": "He is a being from deep inside the earth",
+      "b": "He is from the unknown West across the Great Sea",
+      "c": "He is the brother of Old Man Willow",
+      "d": "His origins are unknown",
+      "correct": "b"
+    },
+    {
+      "question": "What is the name of the inn at Bree?",
+      "a": "The Prancing Pony",
+      "b": "The Golden Goblet",
+      "c": "The Red Lion",
+      "d": "The Hungry Traveler",
+      "correct": "a"
+    },
+    {
+      "question": "Which important character do the hobbits meet at the inn?",
+      "a": "Aragorn",
+      "b": "Gandalf",
+      "c": "Elrond",
+      "d": "Bilbo",
+      "correct": "a"
+    },
+    {
+      "question": "What is the name of the fiery mountain where the One Ring was forged?",
+      "a": "Orodruin",
+      "b": "Caradhras",
+      "c": "Dúnedain",
+      "d": "Orthanc",
+      "correct": "a"
+    },
+    {
+      "question": "Of what races are Legolas and Gimli, respectively?",
+      "a": "Elf and Dwarf",
+      "b": "Man and Dwarf",
+      "c": "Elf and Man",
+      "d": "Dwarf and Elf",
+      "correct": "a"
+    },
+    {
+      "question": "What is Legolas’s weapon of choice?",
+      "a": "A bow and arrows",
+      "b": "An axe",
+      "c": "A sword",
+      "d": "A spear",
+      "correct": "a"
+    },
+    {
+      "question": "Moria was once an ancient realm of which race?",
+      "a": "Dwarves",
+      "b": "Elves",
+      "c": "Orcs",
+      "d": "Trolls",
+      "correct": "a"
+    },
+    {
+      "question": "Which terrible creature does Gandalf battle during the journey through Moria?",
+      "a": "The Balrog",
+      "b": "The Barrow-wight",
+      "c": "The Nazgûl",
+      "d": "The Uruk-hai",
+      "correct": "a"
+    },
+    {
+      "question": "What are Gandalf’s final words before he falls into the chasm?",
+      "a": "“Fly, you fools!”",
+      "b": "“All that is gold does not glitter!”",
+      "c": "“Behold Isildur’s Bane!”",
+      "d": "“Fare Well!”",
+      "correct": "a"
+    },
+    {
+      "question": "Over which realm does Galadriel rule?",
+      "a": "Lothlórien",
+      "b": "Gondor",
+      "c": "Rohan",
+      "d": "Rivendell",
+      "correct": "a"
+    },
+    {
+      "question": "Which of the following does Frodo not see in Galadriel’s mirror?",
+      "a": "A glowing sword",
+      "b": "An old figure dressed in white",
+      "c": "A white fortress",
+      "d": "A dark eye rimmed in fire",
+      "correct": "c"
+    },
+    {
+      "question": "Why does Galadriel refuse the Ring when Frodo offers it?",
+      "a": "She knows it would corrupt her",
+      "b": "The metal from which it is made is fatal to Elves",
+      "c": "It does not fit on her finger",
+      "d": "She dislikes its appearance",
+      "correct": "a"
+    },
+    {
+      "question": "To which city does Boromir suggest the Fellowship go?",
+      "a": "Minas Tirith",
+      "b": "Minas Anor",
+      "c": "Minas Ithil",
+      "d": "Minas Morgul",
+      "correct": "a"
+    },
+    {
+      "question": "What are lembas?",
+      "a": "A type of Elvish food",
+      "b": "A type of flower that grows in Lothlórien",
+      "c": "Elvish coins",
+      "d": "Elvish arrows with magical properties",
+      "correct": "a"
+    },
+    {
+      "question": "Which creature does Aragorn assert has been following the Fellowship throughout the journey?",
+      "a": "Gollum",
+      "b": "Gwaihir",
+      "c": "A Balrog",
+      "d": "A cave-troll",
+      "correct": "a"
+    },
+    {
+      "question": "Which of the following best characterizes Boromir’s attitude toward the Ring?",
+      "a": "He cannot see the importance of it",
+      "b": "He thinks its power is merely a myth",
+      "c": "He begins to be corrupted by it",
+      "d": "He cannot stand the sight of it",
+      "correct": "c"
+    },
+    {
+      "question": "With which companion does Frodo set out at the end of The Fellowship of the Ring?",
+      "a": "Aragorn",
+      "b": "Merry",
+      "c": "Pippin",
+      "d": "Sam",
+      "correct": "d"
+    }
+  ],
+  "medium": [
+    
+  ],
+  "hard": [
+    
+  ]
+};
