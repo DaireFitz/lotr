@@ -218,9 +218,40 @@
     }
   ],
   "medium": [
-    
+    {
+      "question": "Your medium difficulty question 1?",
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D",
+      "correct": "a"
+    },
+    {
+      "question": "Your medium difficulty question 2?",
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D",
+      "correct": "b"
+    }
   ],
   "hard": [
-    
+    {
+      "question": "Your hard difficulty question 1?",
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D",
+      "correct": "c"
+    },
+    { 
+      "question": "Your hard difficulty question 2?",
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D",
+      "correct": "a"
+  }
   ]
-};
+  
+}

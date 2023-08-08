@@ -19,9 +19,19 @@
 <body>
   <header>
   </header>
- <a class="quizz-back-btn" href="index.html">Back
-      </a>
+
+    <main>
+    
+<div class="banner">
+     <button id="start-btn">Start Quiz</button>
+
+    <!-- Background image -->
+    <img src="assests/lotrbanner.jpg" alt="Background Image" class="background-image">
+     
   <div class="quiz-container" id="quiz">
+  <a class="quizz-back-btn" href="index.html">Back
+      </a>
+
     <p id="timer">Time left: 60s</p>
 
     <div class="quiz-header">
@@ -47,11 +57,13 @@
     </div>
     <button id="submit">Submit</button>
   </div>
-
-  <div id="result-container">
+ <div id="result-container">
     <h2 id="result"></h2>
   </div>
+</div>
 
-  <script src="script.js"></script>
+</main>
+ 
+  <script src="quiz-questions.js"></script>
 </body>
 </html>
